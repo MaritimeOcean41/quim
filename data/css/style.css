@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url("https://maritimeocean41.github.io/fonts/main.css");
+* {
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* All */
+header {
+  background-color: #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20vh;
+}
+header .title {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  font-weight: 600;
+  text-align: center;
+  line-height: 20vh;
+}
+
+/* Home */
+.home {
+  position: fixed;
+}
+.home header .title {
+  font-size: 6.5em;
+}
+.home section {
+  position: fixed;
+  display: table;
+  top: 20vh;
+  left: 0;
+  width: 100vw;
+  height: 80vh;
+}
+.home section #content {
+  color: rgb(0, 26, 255);
+  text-decoration: underline;
+  font-size: 2em;
+}
+
+/* Funções Orgânicas */
+.orga {
+  position: fixed;
+}
+.orga header .title {
+  font-size: 5em;
+}
+.orga section {
+  position: fixed;
+  top: 20vh;
+  left: 0;
+  width: 100vw;
+  height: 80vh;
+}
+.orga section .start {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.orga section .start button {
+  background-color: #58763a;
+  width: 300px;
+  height: 80px;
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: 600;
+  border-width: 0px;
+  border-radius: 15px;
+  outline: none;
+}
+.orga section .question {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  width: 75vw;
+  height: 75vh;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.orga section .question img {
+  display: block;
+  width: 100%;
+}
+.orga section .question input {
+  width: calc(75% - 35px);
+  height: 80px;
+  font-size: 3em;
+  margin-top: 20px;
+  padding-left: 35px;
+  border: 1px solid #555;
+  outline: none;
+}
+.orga section .question .confirm {
+  width: 20%;
+  height: 80px;
+  font-size: 3em;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
